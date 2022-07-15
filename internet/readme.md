@@ -1,4 +1,4 @@
-*Notes for internet datasets*
+*Notes for Web Services Coverage datasets*
 
 The 520202...202207.json files are modified data:
  - the raw data as is in "data" object.
