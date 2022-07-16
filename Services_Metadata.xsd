@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Inspired in the spirit of IBM Business Monitor
+    This Monitor development environment provides the tools for creating monitor models
+    that can be transformed into executable code
+    [{
+    "internet": [
+    {"nombre":"id", "label": "id", "tipo":"string","required":true},
+    {"nombre":"capa","label":"capa", "tipo":"string","required":true},
+    {"nombre":"tipo", "label": "typeApp", "tipo":"string","required":true},
+    {"nombre":"coord", "label": "Coordenadas","tipo":"array","required":true},
+    {"nombre":"zoom", "label": "zoom", "tipo":"integer","required":true}
+    ]
+    }]
+
+<xs:element name="employee" type="fullpersoninfo"/>
+
+<xs:complexType name="personinfo">
+  <xs:sequence>
+    <xs:element name="firstname" type="xs:string"/>
+    <xs:element name="lastname" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fullpersoninfo">
+  <xs:complexContent>
+    <xs:extension base="personinfo">
+      <xs:sequence>
+        <xs:element name="address" type="xs:string"/>
+        <xs:element name="city" type="xs:string"/>
+        <xs:element name="country" type="xs:string"/>
+      </xs:sequence>
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+
+<xs:attribute name="lang" type="xs:string" default="EN"/>
+<xs:attribute name="lang" type="xs:string" use="required"/>
+<xs:attribute name="lang" type="xs:string" use="optional"/>
+
+<xs:element name="car" type="carType"/>
+
+<xs:simpleType name="carType">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Audi"/>
+    <xs:enumeration value="Golf"/>
+    <xs:enumeration value="BMW"/>
+  </xs:restriction>
+</xs:simpleType>
+
+
+<xs:element name="lastname" type="xs:string"/>
+<xs:element name="age" type="xs:integer"/>
+<xs:element name="dateborn" type="xs:date"/>
+-->
