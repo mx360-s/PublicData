@@ -1,7 +1,7 @@
 [
     {
         "Capa": "limite_cobre",
-        "tipeApp": "telefoniaVoz",
+        "Class": "telefoniaVoz",
         "Coordenadas": " -114.96589562676411 32.70428122167513, -115.63125512383442 32.356933918857955",
         "zoom": 11,
         "data": [
