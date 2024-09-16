@@ -2,6 +2,7 @@
 
 >This is a *unified set of data* and is intended to be the primary resource for providing and analyzing demographic and situational information.
 
+<!--
 It is built on some gems:
 
  - Table of variables
@@ -22,3 +23,4 @@ The source tables are built in excel (yes excel) and presented in simple XML ove
  - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GMBGYH
  - https://www.datafiles.samhsa.gov/get-help/codebooks/what-codebook
  - https://dss.princeton.edu/online_help/analysis/codebook.htm
+-->
